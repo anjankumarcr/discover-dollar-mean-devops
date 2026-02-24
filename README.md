@@ -1,27 +1,78 @@
-In this DevOps task, you need to build and deploy a full-stack CRUD application using the MEAN stack (MongoDB, Express, Angular 15, and Node.js). The backend will be developed with Node.js and Express to provide REST APIs, connecting to a MongoDB database. The frontend will be an Angular application utilizing HTTPClient for communication.  
+# 🚀 MEAN Stack CRUD Application - DevOps Deployment
 
-The application will manage a collection of tutorials, where each tutorial includes an ID, title, description, and published status. Users will be able to create, retrieve, update, and delete tutorials. Additionally, a search box will allow users to find tutorials by title.
+## 📌 Project Overview
 
-## Project setup
+This project demonstrates a full-stack CRUD (Create, Read, Update, Delete) application built using the **MEAN stack**:
 
-### Node.js Server
+- **MongoDB** – Database
+- **Express.js** – Backend framework
+- **Angular 15** – Frontend framework
+- **Node.js** – Runtime environment
 
-cd backend
+The application manages a collection of tutorials. Each tutorial contains:
 
-npm install
+- ID
+- Title
+- Description
+- Published Status
 
-You can update the MongoDB credentials by modifying the `db.config.js` file located in `app/config/`.
+Users can:
+- ✅ Create tutorials
+- 📄 Retrieve tutorials
+- ✏ Update tutorials
+- ❌ Delete tutorials
+- 🔎 Search tutorials by title
 
-Run `node server.js`
+---
 
-### Angular Client
+## 🌍 Live Application
 
-cd frontend
+🔗 **Live URL:**  
+http://http://65.1.134.40
 
-npm install
+🔗 **GitHub Repository:**  
+https://github.com/anjankumarcr/discover-dollar-mean-devops
 
-Run `ng serve --port 8081`
+---
 
-You can modify the `src/app/services/tutorial.service.ts` file to adjust how the frontend interacts with the backend.
+## 🏗 Architecture
 
-Navigate to `http://localhost:8081/`
+User → Nginx (Frontend Container)  
+Frontend → Backend (Node/Express Container)  
+Backend → MongoDB Container  
+
+CI/CD Flow:  
+GitHub → Docker Build → DockerHub → AWS EC2 → Docker Compose
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Angular 15
+- TypeScript
+- HTTPClient
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+
+### Database
+- MongoDB
+
+### DevOps Tools
+- Docker
+- Docker Compose
+- GitHub Actions (CI/CD)
+- AWS EC2
+- DockerHub
+
+---
+
+## 🐳 Docker Setup
+
+### Run Locally with Docker
+
+```bash
+docker-compose up --build
