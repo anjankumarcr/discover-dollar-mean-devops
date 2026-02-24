@@ -1,3 +1,7 @@
+<img width="1919" height="587" alt="Screenshot 2026-02-24 164602" src="https://github.com/user-attachments/assets/b1fe0ab7-7bd3-4c80-aa11-2e6f217fbf07" />
+<img width="124" height="71" alt="Screenshot 2026-02-24 165220" src="https://github.com/user-attachments/assets/e8f2f495-7eee-48f2-8979-f5da8e31bac1" />
+<img width="1867" height="145" alt="Screenshot 2026-02-24 165234" src="https://github.com/user-attachments/assets/deda6b81-3b2f-4f92-90db-8abc8cf7c806" />
+<img width="1905" height="687" alt="Screenshot 2026-02-24 165444" src="https://github.com/user-attachments/assets/e31d501d-ddd4-49e9-9282-26ab4fb463ac" />
 # 🚀 MEAN Stack CRUD Application - DevOps Deployment
 
 ## 📌 Project Overview
