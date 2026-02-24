@@ -28,7 +28,7 @@ Users can:
 ## 🌍 Live Application
 
 🔗 **Live URL:**  
-http://http://65.1.134.40
+http://65.1.134.40
 
 🔗 **GitHub Repository:**  
 https://github.com/anjankumarcr/discover-dollar-mean-devops
